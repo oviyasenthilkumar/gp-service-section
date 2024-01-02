@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#services{
+	height:100vh;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.services-title{
+	margin-top:50px;
+	
+}
+h4 hr{
+	height:1.5px;
+	width: 100px;
+    display: inline-block;
+    background:#dea90b;
+    margin: 5px ;
+	border:none;
+}
+h4{
+	letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-size: 14px;
+	padding-bottom:10px;
+}
+h1{
+	font-size:40px;
+	font-family: 'Work Sans', sans-serif;
+	padding-bottom:3%;
+}
+.services-section-row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.services-section-col{
+	width:33.33%;
+	padding:20px;
+}
+.services-section-card:hover{
+	border-color: #fff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+.services-section-card{
+	text-align:center;
+	border:1px solid #aaaaaa;
+	padding:80px 20px;
+	font-family: 'Raleway', sans-serif;
+	transition: all ease-in-out 0.3s;
+}
+.services-section-card p{
+	font-size:14px;
+	padding-top:20px;
+}
+.services-section-card h1{
+	font-size:24px;
+	padding-top:37px;
+	font-weight:500;
+}	
+.services-section-card h1:hover{
+	color:#ffc451;
+}
+.services-section-logo{
+	border:1px none #ffc451;
+	padding:15px 20px;
+	border-radius:5px;
+	width:20%;
+	display:inline;
+	background-color:#ffc451;
+	font-size:30px;
+}
